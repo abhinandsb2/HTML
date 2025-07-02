@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="font-size: large;">
+
+    <h2> Application Form</h2>
+
+    <form action="./Form syntax.html" method="">
+
+        <!-- name -->
+        <label for="name"> First Name:</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="name">Last Name:</label>
+        <input type="text" name="name" id="name" required> <br><br>
+
+        <!-- date and age -->
+        <label for="date">Date Of Birth:</label>
+        <input type="date" name="date" id="date" required>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required> <br><br>
+
+        <!-- gender and email address -->
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" required> <br><br>
+
+        <!-- positions available -->
+        <label for="text">Position Available:</label>
+
+        <input type="radio" name="Position Available" id="junior developer" value="junior developer">
+        <label for="junior developer">Junior Developer</label>
+
+        <input type="radio" name="Position Available" id="mid-level developer" value="mid level developer">
+        <label for="mid-level developer">Mid-Level Developer</label>
+
+        <input type="radio" name="Position Available" id="senior developer" value="senior developer">
+        <label for="senior developer">Senior Developer</label> <br><br>
+
+        <!-- programming languages -->
+        <label for="text">Programming Languages</label>
+
+        <input type="checkbox" name="Programming Languages" id="java" value="java">
+        <label for="java">Java</label>
+
+        <input type="checkbox" name="Programming Language" id="javascript" value="javascript">
+        <label for="javascript">JavaScript</label>
+
+        <input type="checkbox" name="Programming Language" id="python" value="python">
+        <label for="python">Python</label> <br><br>
+
+        <!-- password and confirm password -->
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+
+        <label for="confirm password">Confirm Password:</label>
+        <input type="password" name="confirm password" id="confirm password" required> <br><br>
+
+        <input type="submit" value="Submit">
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
